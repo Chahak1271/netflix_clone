@@ -1,0 +1,96 @@
+*{
+    margin:0;
+    /* background-color: rgb(22, 19, 19); */
+    padding: 0;
+    /* overflow-y: hidden; */
+}
+
+.sky{
+    height: 50px;
+    width: 100%;
+    position: absolute;
+    /* border: 1px solid black; */
+    /* margin: 5rem auto; */
+    /* background-repeat: no-repeat; */
+    
+    /* background-image: url(./sky.jpg); */
+    position: ;
+    /* position: relative; */
+    /* overflow-x: hidden; */
+    /* animation: moveRight 6s linear; */
+    
+}
+
+/* .surface{
+    height: 140px;
+    width: 500px;
+    background: url();
+} */
+
+.road{
+    height: 350px;
+    width:  100%;
+    background-image: url(./istockphoto-1161948652-612x612\ \(1\).jpg);
+    position: absolute;
+    /* background-size: cover; */
+    
+    /* animation: suspension 1s linear infinite; */
+    /* animation-name: suspension;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite; */
+}
+
+.car{
+    height: 50px;
+    width:  50px;
+    margin-top: 200px;
+    /* background-image: url(./istockphoto-1222528432-612x612.jpg); */
+    /* background-size: cover; */
+    position: absolute;
+    background-repeat: no-repeat;
+    /* background-size: cover; */
+    
+    /* animation: suspension 1s linear infinite; */
+    /* animation-name: suspension;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite; */
+    animation-name: car-key;
+    animation-duration: 5s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: 2;
+}
+
+
+
+
+/* @keyframes suspension{
+    100%{
+        transform: translateY(-1px);
+    }
+
+    50%{
+        transform: translateY(2px);
+    }
+
+    0%{
+        transform: translateY(-1px)
+    }
+
+} */
+
+@keyframes car-key{
+    0%{
+        margin-left: 0px;
+        margin-top:230px;
+    }
+    50%{
+        margin-left: 500px;
+        margin-top: 230px;
+    }
+    100%{
+        margin-left: 1400px;
+        margin-top:230px;
+    }
+}

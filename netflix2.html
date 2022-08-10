@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>NETFLIX</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+  <style>
+    * {
+      padding: 0;
+      margin: 0;
+      box-sizing: border-box;
+    }
+
+    img {
+      max-width: 100%;
+    }
+
+    body {
+
+      background-image: url(./1_5lyavS59mazOFnb55Z6znQ.png);
+      /* background-image: linear-gradient(black), url(./1_5lyavS59mazOFnb55Z6znQ.png); */
+    }
+
+
+    .login-bottom {
+      background-color: rgba(0, 0, 0, 0.349);
+      height: 600px;
+      width: 800px;
+      border-radius: 5px;
+      padding: 40px;
+
+    }
+
+    .spacee {
+      padding-left: 80px;
+    }
+
+    .emailbox {
+      width: 500px;
+    }
+
+    .login-box1 {
+      background-color: rgba(0, 0, 0, 0.909);
+      margin-top: 100px;
+      height: 500px;
+      padding-top: 30px;
+      font-size: medium;
+      padding-left: 200px;
+
+    }
+
+    .imagee {
+      margin-right: 70px;
+      width: 500px;
+
+
+    }
+
+    .login-box2 {
+      background-color: rgba(0, 0, 0, 0.909);
+
+      height: 500px;
+
+      font-size: medium;
+      padding-top: 50px;
+
+      padding-left: 60px;
+
+
+    }
+
+    section {
+      background-color: black;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 46px;
+      padding: 70px 35px;
+      align-items: center;
+    }
+
+
+    section div.texts h1 {
+      font-size: 3.125rem;
+      margin-bottom: 8px;
+      color: white;
+    }
+
+    .media {
+      position: relative
+    }
+
+    section div.texts p {
+      font-size: 1.625rem;
+      color: aliceblue;
+    }
+
+    section:nth-child(even) div.texts {
+      order: 2;
+    }
+
+    .footer {
+      background-color: rgba(0, 0, 0, 0.863);
+
+      height: 300px;
+      padding-top: 30px;
+      font-size: medium;
+      padding-left: 200px;
+
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- nav bar -->
+
+  <!-- <div class="container">
+      <div class="row align-items-start mt-3 ">
+        <div class="col-8  h1 text-danger fw-bold">
+          NETFLIX
+        </div>
+        <div class="col-2 text-danger">
+          One of three columns
+        </div>
+          <div class="col-2 text-white d-flex bg-danger" role="search">
+            <input class="form-control " type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success" type="submit">Search</button>
+          </div>
+        </div> -->
+
+
+  <nav class="navbar header ">
+    <div class="container-fluid">
+      <a class="fs-1 fw-bold navbar-brand text-danger ms-5">NETFLIX</a>
+      <!-- <svg viewBox="0 0 111 30" class="svg-icon svg-icon-netflix-logo" aria-hidden="true" focusable="false"><g id="netflix-logo"><path d="M105.06233,14.2806261 L110.999156,30 C109.249227,29.7497422 107.500234,29.4366857 105.718437,29.1554972 L102.374168,20.4686475 L98.9371075,28.4375293 C97.2499766,28.1563408 95.5928391,28.061674 93.9057081,27.8432843 L99.9372012,14.0931671 L94.4680851,-5.68434189e-14 L99.5313525,-5.68434189e-14 L102.593495,7.87421502 L105.874965,-5.68434189e-14 L110.999156,-5.68434189e-14 L105.06233,14.2806261 Z M90.4686475,-5.68434189e-14 L85.8749649,-5.68434189e-14 L85.8749649,27.2499766 C87.3746368,27.3437061 88.9371075,27.4055675 90.4686475,27.5930265 L90.4686475,-5.68434189e-14 Z M81.9055207,26.93692 C77.7186241,26.6557316 73.5307901,26.4064111 69.250164,26.3117443 L69.250164,-5.68434189e-14 L73.9366389,-5.68434189e-14 L73.9366389,21.8745899 C76.6248008,21.9373887 79.3120255,22.1557784 81.9055207,22.2804387 L81.9055207,26.93692 Z M64.2496954,10.6561065 L64.2496954,15.3435186 L57.8442216,15.3435186 L57.8442216,25.9996251 L53.2186709,25.9996251 L53.2186709,-5.68434189e-14 L66.3436123,-5.68434189e-14 L66.3436123,4.68741213 L57.8442216,4.68741213 L57.8442216,10.6561065 L64.2496954,10.6561065 Z M45.3435186,4.68741213 L45.3435186,26.2498828 C43.7810479,26.2498828 42.1876465,26.2498828 40.6561065,26.3117443 L40.6561065,4.68741213 L35.8121661,4.68741213 L35.8121661,-5.68434189e-14 L50.2183897,-5.68434189e-14 L50.2183897,4.68741213 L45.3435186,4.68741213 Z M30.749836,15.5928391 C28.687787,15.5928391 26.2498828,15.5928391 24.4999531,15.6875059 L24.4999531,22.6562939 C27.2499766,22.4678976 30,22.2495079 32.7809542,22.1557784 L32.7809542,26.6557316 L19.812541,27.6876933 L19.812541,-5.68434189e-14 L32.7809542,-5.68434189e-14 L32.7809542,4.68741213 L24.4999531,4.68741213 L24.4999531,10.9991564 C26.3126816,10.9991564 29.0936358,10.9054269 30.749836,10.9054269 L30.749836,15.5928391 Z M4.78114163,12.9684132 L4.78114163,29.3429562 C3.09401069,29.5313525 1.59340144,29.7497422 0,30 L0,-5.68434189e-14 L4.4690224,-5.68434189e-14 L10.562377,17.0315868 L10.562377,-5.68434189e-14 L15.2497891,-5.68434189e-14 L15.2497891,28.061674 C13.5935889,28.3437998 11.906458,28.4375293 10.1246602,28.6868498 L4.78114163,12.9684132 Z" id="Fill-14"></path></g></svg>
+              <li class="nav-item dropdown"> -->
+              </form>
+<!-- <li class="fa-solid fa-globe"></li> -->
+      <form class="d-flex" role="search">
+        <select class="form-select text-white bg-dark px-3 border border-dark">
+          <!-- <li class="fa-solid fa-globe"></li> -->
+          <option value="1">English</option>
+          <option value="2">hindi</option>
+
+        </select>
+        <button class="btn btn-outline-success me-5 bg-danger text-white border border-danger mx-5" type="submit">Sign
+          in</button>
+      </form>
+    </div>
+  </nav>
+
+
+  <div class="d-flex justify-content-center">
+    <div class="login-bottom">
+      <h1 class="h1 text-light mt-5" style="font-size: 60px"> Unlimited movies,TV shows and more</h1>
+      <h3 class="h2 text-white mt-4 fw-normal spacee">Watch anywhere.Cancel anytime.</h3>
+      <h5 class="h5 text-white mt-3 fw-normal"> Ready to watch? Enter your email to create or restart your membership.
+      </h5>
+      <nav class="navbar bg-none">
+        <div class="container-fluid">
+
+          <form class="d-flex mt-3">
+            <div class="form-floating d-grid ">
+              <input type="email" class="form-control rounded-0 emailbox" id="floatingInput"
+                placeholder="name@example.com">
+              <label for="floatingInput">Email address</label>
+            </div>
+            <button class="btn btn-outline-success bg-danger text-white  border border-danger rounded-0"
+              type="submit">Get Started ></button>
+          </form>
+        </div>
+      </nav>
+    </div>
+
+  </div>
+
+  <!-- <div class="border-top border-4 border border-dark login-box1">
+              <img src="./tv.png" class="float-end imagee" alt="image">
+             <h1 class="h1 text-light align-middle mt-5 ms-3"> Enjoy on your TV.</h1>
+           
+             <h3 class="h3 text-light mt-5 ms-3">Watch on smart TVs, PlayStation, Xbox,<br> Chromecast, Apple TV, Blu-ray players and<br> more.</h3>
+          
+            </div>
+
+
+            <div class=" border top-4 border border-dark login-box2">
+              <img src="./mobile-0819.jpg" class="float-front imagee" alt="image">
+             <h1 class="h1 text-light text-end">Download your shows to watch offline.
+             
+            </h1>
+            </div> -->
+
+  <section style="border-top: 10px solid grey;">
+    <div class=" texts">
+      <h1>enjoy on your tv.</h1>
+      <p> Watch on smart TVs, PlayStation, Xbox, Chromecast, Apple TV, Blu-ray players and more.
+      </p>
+    </div>
+    <div class="media">
+      <div>
+        <img src="./tv.png">
+      </div>
+    </div>
+
+  </section>
+
+  <section style="border-top: 10px solid grey;">
+    <div class="texts">
+      <h1>Download your shows to watch offline.</h1>
+      <p> Save your favourites easily and always have something to watch.
+      </p>
+    </div>
+    <div class="media">
+      <div>
+        <img src="./mobile-0819.jpg">
+
+      </div>
+    </div>
+  </section>
+
+  <section style="border-top: 10px solid grey;">
+    <div class="texts">
+      <h1>Watch everywhere.</h1>
+      <p> Stream unlimited movies and TV shows on your phone, tablet, laptop, and TV.</p>
+    </div>
+    <div class="media">
+      <img src="./device-pile-in.png">
+    </div>
+  </section>
+
+  <section style="border-top: 10px solid grey;">
+    <div class="texts">
+      <h1>Create profiles for children.</h1>
+      <p> Send children on adventures with their favourite characters in a space made just for them—free with your
+        membership.</p>
+    </div>
+    <div class="media">
+      <div>
+        <img
+          src="./AAAABYjXrxZKtrzxQRVQNn2aIByoomnlbXmJ-uBy7du8a5Si3xqIsgerTlwJZG1vMpqer2kvcILy0UJQnjfRUQ5cEr7gQlYqXfxUg7bz.png">
+
+      </div>
+    </div>
+  </section>
+
+
+
+
+  <div class="h1 text-white" style="padding: 70px 30px; text-align: center; background-color: black;">Frequently Asked
+    Questions</div>
+
+
+
+
+
+
+
+  <div class="footer">
+    <div class="d-flex p-2 text-white text-opacity-50 ">questions? Call 000-800-040-1843</div>
+
+
+    <div class="container text-white text-opacity-5">
+      <div class="row">
+        <div class="col">FAQ</div>
+        <div class="col-3">help Centre</div>
+        <div class="col-3">terms of use</div>
+        <div class="col-md-3">privacy</div>
+        <!-- </div> -->
+        <!-- <div class="row"> -->
+        <div class="col-3">cookie preferences</div>
+        <div class="col-4">corporate information</div>
+      </div>
+    </div>
+
+
+    <select class="form-select mt-3 bg-black text-white text-opacity-50" style="width:100px">
+      <option value="1">English</option>
+      <option value="2">hindi</option>
+
+    </select>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+      crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js"
+      integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk"
+      crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js"
+      integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy"
+      crossorigin="anonymous"></script>
+</body>
+
+</html>
